@@ -19,7 +19,6 @@ const manrope = Manrope({
 export const metadata: Metadata = {
   title: "Daniel Ramos - Cantor",
   description: "Portfólio oficial do cantor Daniel Ramos",
-  generator: "v0.app",
 }
 
 export default function RootLayout({
