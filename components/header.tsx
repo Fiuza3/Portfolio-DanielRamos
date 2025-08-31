@@ -14,7 +14,7 @@ export default function Header() {
 
             <div className="flex items-center gap-4">
               <a
-                href="mailto:devfiuza@gmail.com"
+                href="mailto:devfiuza@gmail.com?subject=Contato%20via%20Portfolio"
                 className="text-white/80 hover:text-primary transition-colors"
                 title="devfiuza@gmail.com"
               >
@@ -22,7 +22,7 @@ export default function Header() {
               </a>
 
               <a
-                href="https://github.com/marcusfiuza"
+                href="https://github.com/fiuza3"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white/80 hover:text-primary transition-colors"
@@ -31,7 +31,7 @@ export default function Header() {
               </a>
 
               <a
-                href="https://linkedin.com/in/marcusfiuza"
+                href="https://linkedin.com/in/devfiuza"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white/80 hover:text-primary transition-colors"

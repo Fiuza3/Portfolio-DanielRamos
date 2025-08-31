@@ -17,7 +17,7 @@ const manrope = Manrope({
 })
 
 export const metadata: Metadata = {
-  title: "Daniel Ramos - Cantor",
+  title: "Daniel Ramos",
   description: "Portfólio oficial do cantor Daniel Ramos",
 }
 

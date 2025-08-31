@@ -1,6 +1,7 @@
 "use client"
 
 import { useEffect, useRef, useState } from "react"
+import Image from "next/image"
 
 export default function AboutSection() {
   const [isVisible, setIsVisible] = useState(false)
@@ -24,10 +25,10 @@ export default function AboutSection() {
   }, [])
 
   return (
-    <section ref={sectionRef} className="min-h-screen bg-card/50 py-20 px-4 md:px-8 lg:px-16">
+    <section ref={sectionRef} className="min-h-screen bg-card/50 py-12 px-4 md:px-8 lg:px-16">
       <div className="max-w-6xl mx-auto">
         <div
-          className={`grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center transition-all duration-1000 ${
+          className={`grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-start transition-all duration-1000 ${
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
           }`}
         >
@@ -36,23 +37,14 @@ export default function AboutSection() {
             <div className="relative group">
               <div className="absolute inset-0 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 shadow-lg shadow-primary/20 pointer-events-none z-10"></div>
 
-              <div className="w-80 h-96 md:w-96 md:h-[480px] bg-gradient-to-br from-muted to-muted/50 rounded-lg border-2 border-primary/30 flex items-center justify-center overflow-hidden shadow-2xl">
-                {/* Photo placeholder with elegant styling */}
-                <div className="text-center text-muted-foreground">
-                  <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-primary/20 flex items-center justify-center">
-                    <svg className="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
-                      />
-                    </svg>
-                  </div>
-                  <p className="text-sm font-serif">Foto do Cantor</p>
-                  <p className="text-xs opacity-70 mt-1">Em breve</p>
-                </div>
-
+              <div className="w-80 h-[500px] md:w-96 md:h-[600px] rounded-lg border-2 border-primary/30 overflow-hidden shadow-2xl relative">
+                <Image
+                  src="/danielRamos.png"
+                  alt="Daniel Ramos - Cantor Gospel"
+                  fill
+                  className="object-cover"
+                  priority
+                />
                 {/* Elegant border effect */}
                 <div className="absolute inset-0 rounded-lg border border-primary/20 group-hover:border-primary/50 transition-colors duration-300"></div>
               </div>

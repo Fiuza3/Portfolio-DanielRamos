@@ -169,16 +169,10 @@ export default function MusicSection() {
           </p>
           <div className="flex justify-center space-x-4">
             <a
-              href="#"
+              href="https://www.instagram.com/danielramosbh/" target="_blank" rel="noopener noreferrer"
               className="px-6 py-3 bg-primary text-primary-foreground rounded-lg font-sans font-semibold hover:bg-primary/90 transition-colors duration-300 hover:shadow-lg hover:shadow-primary/30"
             >
               Seguir no Instagram
-            </a>
-            <a
-              href="#"
-              className="px-6 py-3 border border-primary text-primary rounded-lg font-sans font-semibold hover:bg-primary hover:text-primary-foreground transition-all duration-300"
-            >
-              Newsletter
             </a>
           </div>
         </div>
