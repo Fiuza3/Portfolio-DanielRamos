@@ -39,7 +39,7 @@ export default function AboutSection() {
 
               <div className="w-80 h-[500px] md:w-96 md:h-[600px] rounded-lg border-2 border-primary/30 overflow-hidden shadow-2xl relative">
                 <Image
-                  src="/danielRamos.png"
+                  src="/Dani.jpg"
                   alt="Daniel Ramos - Cantor Gospel"
                   fill
                   className="object-cover"
@@ -102,9 +102,9 @@ export default function AboutSection() {
             >
               <div className="border-l-4 border-primary pl-6 mt-8">
                 <p className="text-primary font-serif italic text-xl">
-                  "A música é o idioma da alma, e através dela, Deus fala ao coração de cada pessoa."
+                  Cantarei ao Senhor toda a minha vida; louvarei ao meu Deus enquanto eu viver.
                 </p>
-                <p className="text-muted-foreground text-sm mt-2 font-sans">- Daniel Ramos</p>
+                <p className="text-muted-foreground text-sm mt-2 font-sans">- Salmos 104:33</p>
               </div>
             </div>
           </div>
