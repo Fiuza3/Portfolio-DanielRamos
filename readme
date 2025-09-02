@@ -1,26 +1,75 @@
-# Daniel Ramos Portfolio 🚀
+# Portfólio Profissional — Daniel Ramos
 
-Bem-vindo ao portfólio profissional de Daniel Ramos!  
-Este projeto foi desenvolvido para apresentar habilidades, projetos e experiências de Daniel de forma moderna e interativa.
+Bem-vindo ao portfólio de Daniel Ramos!  
+Este repositório apresenta minhas principais competências, projetos e experiências profissionais, utilizando as melhores práticas de desenvolvimento web moderno.
+
+---
+
+## 🚀 Sobre o Projeto
+
+Este portfólio foi desenvolvido com foco em performance, responsividade e acessibilidade, proporcionando uma experiência de navegação intuitiva e agradável. O objetivo é destacar minhas habilidades técnicas, trajetória profissional e projetos relevantes.
+
+---
+
+## 🛠️ Tecnologias e Ferramentas
+
+- **React.js** — Biblioteca para construção de interfaces de usuário dinâmicas e reativas.
+- **JavaScript (ES6+)** — Linguagem principal para lógica de programação e interatividade.
+- **HTML5** — Estruturação semântica e acessível das páginas.
+- **CSS3** — Estilização moderna, responsiva e com uso de Flexbox/Grid.
+- **Node.js & npm** — Gerenciamento de dependências e scripts de build.
+- **Git & GitHub** — Controle de versão e hospedagem do código-fonte.
+- **Vercel/Netlify** — (Opcional) Deploy contínuo e hospedagem do portfólio.
 
 ---
 
 ## ✨ Funcionalidades
 
-- 📄 Apresentação profissional
-- 🖼️ Galeria de projetos
-- 📱 Responsivo para dispositivos móveis
-- 🌐 Links para redes sociais
+- Apresentação profissional detalhada
+- Galeria dinâmica de projetos com descrição e tecnologias utilizadas
+- Layout 100% responsivo para todos os dispositivos
+- Integração com redes sociais e contatos profissionais
+- Navegação fluida e otimizada para SEO
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## 📦 Instalação e Uso
 
-- React.js ⚛️
-- JavaScript 🟨
-- CSS3 🎨
-- HTML5 📝
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/Portfolio-DanielRamos.git
+   cd Portfolio-DanielRamos
+   ```
+2. Instale as dependências:
+   ```bash
+   npm install
+   ```
+3. Inicie o ambiente de desenvolvimento:
+   ```bash
+   npm start
+   ```
+4. Acesse `http://localhost:3000` no navegador.
 
 ---
 
-## 📦 Instalação
+## 📁 Estrutura do Projeto
+
+```
+Portfolio-DanielRamos/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── pages/
+│   └── App.js
+├── package.json
+└── README.md
+```
+
+---
+
+## 📄 Licença
+
+Este projeto está licenciado sob a [MIT License](LICENSE).
+
+---
